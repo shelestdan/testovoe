@@ -1,0 +1,429 @@
+.services-page--citizens {
+  --container: 1520px;
+  background: #ffffff;
+}
+
+.services-page--citizens .ribbon--hero {
+  top: -700px;
+  left: -305px;
+  right: auto;
+  width: 2448px;
+  height: 1139px;
+  transform: matrix(-0.58, 0.81, 0.81, 0.58, 0, 0);
+  opacity: .5;
+}
+
+.services-page--citizens .ribbon--about {
+  top: 1903px;
+  left: auto;
+  right: -1900px;
+  width: 2743px;
+  height: 651px;
+  transform: rotate(-30deg);
+  opacity: .55;
+}
+
+.services-page--citizens .ribbon--cta {
+  top: 2480px;
+  right: -360px;
+  width: 1500px;
+  height: 900px;
+  opacity: .6;
+}
+
+.services-page--citizens .service-hero {
+  padding: 80px 0 100px;
+}
+
+.services-page--citizens .service-hero__inner {
+  display: grid;
+  grid-template-columns: 718px 661px;
+  justify-content: space-between;
+  gap: 140px;
+  align-items: center;
+  min-height: 421px;
+}
+
+.services-page--citizens .service-hero__copy {
+  text-align: center;
+}
+
+.services-page--citizens .service-hero__title {
+  color: #13172A;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.services-page--citizens .service-hero__subtitle {
+  max-width: 538px;
+  margin: 32px auto 0;
+  color: #1D1D1B;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.services-page--citizens .service-hero__btn {
+  min-width: 286px;
+  justify-content: center;
+  margin-top: 32px;
+  border-radius: 14px;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 4.15%, rgba(255,0,0,.1) 30.9%, rgba(255,255,255,.3) 61.47%, rgba(255,0,0,.15) 93.86%), #CD7F32;
+  font-size: 24px;
+  line-height: 29px;
+  box-shadow: none;
+}
+
+.services-page--citizens .service-hero__media {
+  height: 421px;
+  border-radius: 18px;
+}
+
+.services-page--citizens .service-info__card {
+  min-height: 613px;
+  padding: 64px 124px;
+  border: 0;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 49.82%, rgba(82,82,82,.2) 110.62%), rgba(243,243,242,.5);
+  backdrop-filter: blur(16px);
+}
+
+.services-page--citizens .pill {
+  padding: 12px 24px;
+  border-color: #949494;
+  border-radius: 16px;
+  background: transparent;
+  color: #949494;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+.services-page--citizens .service-info__card .about__title {
+  max-width: 778px;
+  margin: 24px 0;
+  color: #13172A;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.services-page--citizens .service-info__card .about__body {
+  max-width: 778px;
+  color: #1D1D1B;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.services-page--citizens .service-info__card .stats {
+  grid-template-columns: repeat(3, 233px);
+  gap: 25px;
+  margin-top: 26px;
+}
+
+.services-page--citizens .service-info__card .stat__num {
+  color: #C51535;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.services-page--citizens .service-info__card .stat__label {
+  color: #1D1D1B;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.services-page--citizens .service-info__card .about__themis {
+  right: 0;
+  top: 0;
+  width: 407px;
+  height: 613px;
+}
+
+.services-page--citizens .service-info__card .about__themis img {
+  opacity: .26;
+  filter: grayscale(1);
+}
+
+.services-page--citizens .service-list,
+.services-page--citizens .fit {
+  padding: 60px 0;
+}
+
+.services-page--citizens .section-title {
+  color: #13172A;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.services-page--citizens .service-list .container {
+  max-width: calc(var(--container) + (var(--pad-x) * 2));
+}
+
+.services-page--citizens .services__grid,
+.services-page--citizens .fit__grid {
+  gap: 24px;
+}
+
+.services-page--citizens .service-list .section-title--left {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.services-page--citizens .services__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(3, 260px);
+  grid-template-areas:
+    "family court state state"
+    "labor court property consumer"
+    "estate estate bankruptcy consumer";
+  align-items: stretch;
+}
+
+.services-page--citizens .svc-card--family { grid-area: family; }
+.services-page--citizens .svc-card--labor { grid-area: labor; }
+.services-page--citizens .svc-card--court { grid-area: court; }
+.services-page--citizens .svc-card--state { grid-area: state; }
+.services-page--citizens .svc-card--estate { grid-area: estate; }
+.services-page--citizens .svc-card--property { grid-area: property; }
+.services-page--citizens .svc-card--bankruptcy { grid-area: bankruptcy; }
+.services-page--citizens .svc-card--consumer { grid-area: consumer; }
+
+.services-page--citizens .svc-card,
+.services-page--citizens .fit-card {
+  border: 0;
+  border-radius: 16px;
+  background: rgba(243,243,242,.5);
+  backdrop-filter: blur(16px);
+}
+
+.services-page--citizens .svc-card {
+  min-height: 0;
+  height: 100%;
+  padding: 32px 64px 32px 32px;
+  justify-content: flex-end;
+}
+
+.services-page--citizens .svc-card--img {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 72px;
+  padding: 0;
+}
+
+.services-page--citizens .svc-card__img {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
+}
+
+.services-page--citizens .svc-card--estate .svc-card__img {
+  object-position: center 36%;
+}
+
+.services-page--citizens .svc-card--consumer .svc-card__img {
+  object-position: center top;
+}
+
+.services-page--citizens .svc-card__title {
+  color: #1D1D1B;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.services-page--citizens .fit-card h3 {
+  color: #1D1D1B;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.services-page--citizens .svc-card--img .svc-card__title {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  max-width: none;
+}
+
+.services-page--citizens .svc-card__tag {
+  display: none;
+}
+
+.services-page--citizens .svc-card__arr {
+  top: 32px;
+  right: 32px;
+  bottom: auto;
+  width: 48px;
+  height: 48px;
+  background: #ffffff;
+  color: #C51535;
+  box-shadow: none;
+}
+
+.services-page--citizens .services__see-all {
+  margin-top: 28px;
+}
+
+.services-page--citizens .see-all {
+  min-height: 68px;
+  padding: 10px 24px 10px 32px;
+  gap: 24px;
+  border: 0;
+  border-radius: 16px;
+  background: rgba(243,243,242,.5);
+  color: #1D1D1B;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  backdrop-filter: blur(16px);
+}
+
+.services-page--citizens .see-all__arr {
+  width: 48px;
+  height: 48px;
+  background: #ffffff;
+  color: #C51535;
+}
+
+.services-page--citizens .fit-card img {
+  height: 354px;
+  border-radius: 16px;
+}
+
+.services-page--citizens .cta {
+  padding: 84px 0 110px;
+}
+
+.services-page--citizens .cta__title {
+  color: #1D1D1B;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+@media (max-width: 1120px) {
+  .services-page--citizens {
+    --container: 100%;
+  }
+
+  .services-page--citizens .service-hero__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 44px;
+  }
+
+  .services-page--citizens .service-hero__title,
+  .services-page--citizens .service-info__card .about__title,
+  .services-page--citizens .section-title {
+    font-size: 38px;
+  }
+
+  .services-page--citizens .service-info__card {
+    padding: 48px;
+  }
+
+  .services-page--citizens .services__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(6, 220px);
+    grid-template-areas:
+      "family court"
+      "labor court"
+      "state state"
+      "property consumer"
+      "bankruptcy consumer"
+      "estate estate";
+  }
+
+  .services-page--citizens .service-list .section-title--left {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 880px) {
+  .services-page--citizens .service-hero__inner {
+    grid-template-columns: 1fr;
+  }
+
+  .services-page--citizens .service-info__card .about__themis {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .services-page--citizens .ribbon--about,
+  .services-page--citizens .ribbon--cta {
+    display: none;
+  }
+
+  .services-page--citizens .service-hero__title,
+  .services-page--citizens .service-info__card .about__title,
+  .services-page--citizens .section-title {
+    font-size: 30px;
+  }
+
+  .services-page--citizens .service-hero__subtitle {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .services-page--citizens .service-hero__btn {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .services-page--citizens .service-info__card {
+    padding: 28px 20px;
+  }
+
+  .services-page--citizens .service-info__card .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .services-page--citizens .services__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-auto-rows: auto;
+    grid-template-areas: none;
+    gap: 16px;
+  }
+
+  .services-page--citizens .svc-card {
+    grid-area: auto;
+    min-height: 190px;
+    padding: 24px 72px 24px 24px;
+  }
+
+  .services-page--citizens .svc-card--img {
+    grid-template-rows: 170px auto;
+  }
+
+  .services-page--citizens .svc-card--img .svc-card__title {
+    min-height: 72px;
+    padding: 18px 72px 18px 24px;
+  }
+
+  .services-page--citizens .svc-card__title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .services-page--citizens .svc-card__arr {
+    top: 22px;
+    right: 22px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .services-page--citizens .see-all {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
