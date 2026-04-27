@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Самописная CRM - система под ваши процессы</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/crm.css" />
+</head>
+<body>
+  <header class="crm-header">
+    <a href="index.html" class="logo" aria-label="На главную">
+      <span class="logo__mark">CRM</span>
+      <span class="logo__text">система под ваш отдел продаж</span>
+    </a>
+
+    <nav class="top-nav" aria-label="Навигация по странице">
+      <a href="#benefits">Плюсы</a>
+      <a href="#screens">Экраны</a>
+      <a href="#choice">Почему выбрать</a>
+    </nav>
+
+    <a class="header-link" href="#brief">Обсудить проект</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="eyebrow">Самописная CRM</p>
+        <h1 id="hero-title">CRM под ваш отдел продаж</h1>
+        <p class="hero__lead">Система повторяет ваш процесс: заявки, клиенты, задачи, документы, отчеты и контроль собираются в одном рабочем окне.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="mailto:daniil.shelesteev@yandex.ru?subject=%D0%A5%D0%BE%D1%87%D1%83%20%D1%82%D0%B0%D0%BA%D1%83%D1%8E%20%D0%B6%D0%B5%20CRM">Хочу такую же CRM <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="#screens">Посмотреть экраны</a>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-label="Макет интерфейса CRM" role="img">
+        <div class="browser-bar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="crm-shell">
+          <aside class="mock-nav">
+            <strong>SalesDesk</strong>
+            <span class="active">Заявки</span>
+            <span>Клиенты</span>
+            <span>Задачи</span>
+            <span>Отчеты</span>
+          </aside>
+          <section class="mock-workspace">
+            <div class="mock-head">
+              <div>
+                <small>Сегодня</small>
+                <strong>42 активные заявки</strong>
+              </div>
+              <button>+ Сделка</button>
+            </div>
+            <div class="pipeline">
+              <article>
+                <span>Новая</span>
+                <strong>12</strong>
+                <p>3 горячих клиента</p>
+              </article>
+              <article>
+                <span>Расчет</span>
+                <strong>18</strong>
+                <p>7 ждут КП</p>
+              </article>
+              <article>
+                <span>Договор</span>
+                <strong>8</strong>
+                <p>2 на подписи</p>
+              </article>
+              <article>
+                <span>Оплата</span>
+                <strong>4</strong>
+                <p>1 просрочка</p>
+              </article>
+            </div>
+            <div class="client-row">
+              <span class="avatar">МК</span>
+              <div>
+                <strong>Мир Комплект</strong>
+                <small>Счет, договор, история звонков</small>
+              </div>
+              <b>740 000 ₽</b>
+            </div>
+            <div class="client-row">
+              <span class="avatar avatar--gold">АП</span>
+              <div>
+                <strong>Альфа Проект</strong>
+                <small>Следующий контакт в 14:30</small>
+              </div>
+              <b>310 000 ₽</b>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Ключевые преимущества">
+      <div>
+        <strong>1 окно</strong>
+        <span>вместо таблиц, чатов и заметок</span>
+      </div>
+      <div>
+        <strong>0 лишних полей</strong>
+        <span>только нужные этапы и роли</span>
+      </div>
+      <div>
+        <strong>100% ваш процесс</strong>
+        <span>логика, отчеты, интеграции</span>
+      </div>
+    </section>
+
+    <section id="benefits" class="section section--split">
+      <div class="section__text">
+        <p class="eyebrow">Почему удобно клиенту</p>
+        <h2>Менеджер видит всю историю и не просит клиента повторять одно и то же</h2>
+        <p>В карточке клиента хранится переписка, звонки, документы, счета, задачи и следующий шаг. Клиент получает быстрый ответ, потому что сотрудник сразу понимает контекст.</p>
+      </div>
+
+      <div class="client-card visual-panel">
+        <div class="panel-head">
+          <span>Карточка клиента</span>
+          <b>Готово к КП</b>
+        </div>
+        <div class="profile">
+          <span class="profile__avatar">К</span>
+          <div>
+            <strong>Компания «Контур»</strong>
+            <small>Последний контакт: 12 минут назад</small>
+          </div>
+        </div>
+        <ul class="timeline">
+          <li><span></span><b>Звонок</b><em>Зафиксирована потребность</em></li>
+          <li><span></span><b>Документы</b><em>Коммерческое предложение прикреплено</em></li>
+          <li><span></span><b>Задача</b><em>Отправить счет до 16:00</em></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="screens" class="section section--dark">
+      <div class="section__intro">
+        <p class="eyebrow">Визуально</p>
+        <h2>Самописная CRM показывает именно то, что важно вашему отделу</h2>
+        <p>Не универсальные разделы «на всякий случай», а рабочие экраны под продажу, обслуживание, производство или сопровождение.</p>
+      </div>
+
+      <div class="screen-grid">
+        <article class="screen-shot screen-shot--wide">
+          <div class="screen-shot__bar">
+            <span>Воронка продаж</span>
+            <b>Live</b>
+          </div>
+          <div class="kanban">
+            <div><strong>Новые</strong><p>Заявка с сайта</p><p>Повторный клиент</p></div>
+            <div><strong>В работе</strong><p>Расчет стоимости</p><p>Согласование сроков</p></div>
+            <div><strong>Договор</strong><p>Подготовка счета</p><p>Юр. проверка</p></div>
+            <div><strong>Оплата</strong><p>Ожидаем платеж</p></div>
+          </div>
+        </article>
+
+        <article class="screen-shot">
+          <div class="screen-shot__bar">
+            <span>Отчеты</span>
+            <b>Месяц</b>
+          </div>
+          <div class="chart">
+            <span style="height: 52%"></span>
+            <span style="height: 70%"></span>
+            <span style="height: 44%"></span>
+            <span style="height: 86%"></span>
+            <span style="height: 64%"></span>
+          </div>
+          <p class="screen-note">Выручка, конверсия, просрочки, загрузка менеджеров.</p>
+        </article>
+
+        <article class="screen-shot">
+          <div class="screen-shot__bar">
+            <span>Автоматизация</span>
+            <b>Rules</b>
+          </div>
+          <div class="rules">
+            <p><span></span>Новая заявка → задача менеджеру</p>
+            <p><span></span>Счет просрочен → уведомление руководителю</p>
+            <p><span></span>Клиент оплатил → запуск производства</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="choice" class="section compare-section">
+      <div class="section__intro">
+        <p class="eyebrow">Выбор клиента</p>
+        <h2>Коробочная CRM закрывает часть задач. Самописная закрывает ваш процесс целиком</h2>
+      </div>
+
+      <div class="compare">
+        <div class="compare__side compare__side--muted">
+          <h3>Обычная CRM</h3>
+          <ul>
+            <li>Много лишних полей и разделов</li>
+            <li>Сотрудники ведут обходные таблицы</li>
+            <li>Отчеты приходится собирать вручную</li>
+            <li>Интеграции ограничены тарифом</li>
+          </ul>
+        </div>
+        <div class="compare__side compare__side--accent">
+          <h3>Самописная CRM</h3>
+          <ul>
+            <li>Интерфейс под роли: менеджер, руководитель, склад, бухгалтерия</li>
+            <li>Автоматические задачи, статусы, документы и уведомления</li>
+            <li>Отчеты под ваши KPI без ручной сборки</li>
+            <li>Интеграции с сайтом, телефонией, 1С, почтой, мессенджерами</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section workflow">
+      <div class="section__text">
+        <p class="eyebrow">Сценарий работы</p>
+        <h2>Клиент оставил заявку - система сама ведет ее до результата</h2>
+      </div>
+      <div class="steps" aria-label="Этапы работы CRM">
+        <article>
+          <span>01</span>
+          <h3>Заявка попала в CRM</h3>
+          <p>Источник, контакт, услуга и комментарий сохраняются автоматически.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Менеджер получил задачу</h3>
+          <p>CRM подсказывает срок, следующий шаг и нужный шаблон ответа.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Руководитель видит контроль</h3>
+          <p>Просрочки, деньги, этапы и нагрузка отдела видны без созвонов.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="brief" class="final-cta">
+      <div>
+        <p class="eyebrow">Следующий шаг</p>
+        <h2>Выберите CRM, которую не придется обходить сторонними таблицами</h2>
+        <p>Система собирается под вашу логику, поэтому сотрудники быстрее принимают заявки, руководитель видит контроль, клиент получает понятный сервис.</p>
+      </div>
+      <a class="btn btn--primary" href="mailto:daniil.shelesteev@yandex.ru?subject=%D0%9E%D0%B1%D1%81%D1%83%D0%B4%D0%B8%D1%82%D1%8C%20CRM">Обсудить внедрение <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+</body>
+</html>
